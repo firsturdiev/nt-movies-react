@@ -8,7 +8,7 @@ import Card from './Card';
 ReactDOM.render(
   <ul className="search-results row list-unstyled">
     {
-      movies.slice(0, 50).map(movie => <Card title={movie.title} year={movie.year} imdbRating={movie.imdbRating} smallPoster={movie.smallPoster}></Card>)
+      movies.slice(0, 50).map(movie => <Card key={movie.imdbId} title={movie.title} year={movie.year} imdbRating={movie.imdbRating} smallPoster={movie.smallPoster}></Card>)
     }
   </ul>,
   document.getElementById('root')

@@ -20,7 +20,7 @@ function Card({title, year, imdbRating, smallPoster, color}) {
           </p>
 
           <p className="card-text d-flex flex-column flex-md-row flex-wrap justify-content-around">
-            <a className="movie__trailer-link m-1 m-xl-0 btn btn-outline-primary btn-sm" href="" target="_blank">Watch trailer</a>
+            <a className="movie__trailer-link m-1 m-xl-0 btn btn-outline-primary btn-sm" href="#" target="_blank">Watch trailer</a>
             <button className="m-1 m-xl-0 btn btn-outline-info btn-sm js-movie-modal-opener" type="button" data-toggle="modal" data-target="#movie-info-modal">More info</button>
             <button className="m-1 m-xl-0 btn btn-outline-success btn-sm js-movie-bookmark" type="button">Bookmark</button>
           </p>
